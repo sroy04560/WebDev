@@ -1,11 +1,6 @@
-#### React Router Fix
+#### Cocktail
 
-(Fix)[https://dev.to/dance2die/page-not-found-on-netlify-with-react-router-58mc]
+#### Use :-
 
-#### CRA Fix
+#### javascript , react.js 
 
-```
-
-"build": "CI= react-scripts build",
-
-```
