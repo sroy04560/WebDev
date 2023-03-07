@@ -1,0 +1,27 @@
+.pro{
+    flex: 4;
+}
+.proList{
+    display: flex;
+    align-items: center;
+}
+.proListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.proListDel{
+    color: red;
+    cursor: pointer;
+}
+.proListImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 10px;
+}

@@ -1,0 +1,144 @@
+.user{
+    flex: 4;
+    padding: 20px;
+}
+
+.userTitleCon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userAdd{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+.userContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.userShow{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 1px 2px 10px -1px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 2px 10px -1px rgba(0,0,0,1);
+-moz-box-shadow: 1px 2px 10px -1px rgba(0,0,0,1);
+    
+}
+
+.userUpdate{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 1px 2px 10px -1px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 2px 10px -1px rgba(0,0,0,1);
+-moz-box-shadow: 1px 2px 10px -1px rgba(0,0,0,1);
+    margin-left: 20px;
+}
+
+.showTop{
+    display: flex;
+    align-items: center;
+}
+.show{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.showTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    
+}
+.showUsername{
+    font-weight: 600;
+}
+.showJob{
+    font-weight: 300;
+}
+.showTitle{
+    margin-top: 20px;
+}
+
+.showTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(172, 172, 172);
+}
+
+.showInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.icon{
+    font-size: 16px !important; 
+}
+.showInfoTitle{
+    margin-left: 10px;
+}
+
+.upImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.upForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.upTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.upItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.upItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.upInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid grey;
+}
+
+.upRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+.upUpload{
+    display: flex;
+    align-items: center;
+}
+.upIcon{
+    cursor: pointer;
+}
+.upBtn{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600 ;
+}
